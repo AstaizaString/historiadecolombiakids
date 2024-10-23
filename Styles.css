@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,700&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Nunito Sans', sans-serif;
+font-size: 20px;
+
+}
+
+main{
+background-color: rgb(242, 255, 0);
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.nav{
+background-color: black;
+width: 100%;
+height: 75%;
+padding: 0 50px;
+display: flex;
+flex-direction: row;
+justify-content: center
+
+}
+
+.nav a{
+text-decoration: none;  
+color: rgb(99, 99, 99);
+font-size: 18px;
+font-weight: 600;
+padding: 25px 50px;
+}
+/* combia el color al señalar. hover*/
+.nav a:hover{ 
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    }
+
+#primerasec{
+background-image: url(imagenes/fondo\ 2.jpeg);
+width: 1340px;
+height: 550px;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(255, 238, 0) ;
+}
+#primerasec h2{
+font-size: 55px;
+color: black;
+border: 2px solid #ffffff;
+padding: 20px;
+background-color: #0d00ff;
+border-radius: 20px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+margin: 20px auto;
+max-width: 800px;
+}
+#primerasec h3{
+    font-size: 45px;
+    text-align: center;
+    }
+
+#primerasec form{
+
+border-radius: 20px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+margin: 10px auto;
+max-width: 800px;
+text-align: center;
+}
+
+#segundasec{
+    background-image: url(imagenes/fondo\ 1.jpeg);
+    background-color: yellow;
+    width: 1340px;
+    height: 550px;
+}
+.orden{
+ height: 50px;
+ display: flex;
+ margin: 5px;
+ margin-left: 50px;
+ text-align: center;
+ justify-content: center;
+}
+#segundasec h1{
+font-size: 35px;
+text-align: center;
+color:white;
+margin-top: 25px;
+border: 2px solid #ffffff;
+padding: 20px;
+background-color: #0d00ff;
+border-radius: 20px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+margin: 50px auto;
+max-width: 1000px;
+}
+#segundasec p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 60px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 1000px;
+    
+    
+}
+#segundasec h2{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 35px;
+    }
+
+.imagen-estilo{
+    margin: 10px auto;
+    align-items: center;
+    background-color: yellow;
+}
+
+.imagenesinicio1{
+    background-color: yellow;
+}
+    
+.boton1{
+    display: block;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 150px 550px;
+    padding: 45px 40px;
+    background-color: #ff0000;
+    
+
+
+}
+
+#claseboton{
+    background-color: yellow;
+}
+
+.boton1:hover{
+background-color: transparent;
+border: 2px solid;
+font-size: 25px;
+color: #ff0000;
+}
+    
+#primerospasos h1{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+#primerospasos h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #1100ff;
+    text-align: center;
+}
+#primerospasos p{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+#imagenesinicio{
+    text-align: center;
+}
+
+#imagenesinicio img{
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#Encuentrodedosmundos h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #1100ff;
+    text-align: center;
+}
+#Encuentrodedosmundos p{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+#Epocacolonial h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #1100ff;
+    text-align: center;
+}
+#Epocacolonial p{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #ff0000;
+    text-align: center;
+}
+    
+#caminoindependencia h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #2218b3;
+    text-align: center;
+}
+#caminoindependencia p{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #ff0000;
+    text-align: center;
+}
+#caminoindependencia h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #2218b3;
+    text-align: center;
+}
+
+#video1 h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #2218b3;
+    text-align: center;
+}
+
+.videoco h2{
+    border-radius: 10px;
+    margin: 15px 50px;
+    padding: 45px 40px;
+    background-color: #2218b3;
+    text-align: center;
+}
+
+.audio1{
+    text-align: center;
+    margin: 10px;
+}
+
+.Audio2{
+    text-align: center;
+    margin: 10px;
+}
+
+#Encuentrodedosmundos h3{
+    text-align: center;
+}
+.Audio3{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+.Ctexto{
+    border: 2px solid #4682b4;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: 'Arial', sans-serif;
+}
+
+#encuesta a{
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
